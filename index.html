@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+
+  <head>
+    <meta charset="utf-8" />
+    <script data-require="jquery@2.1.4" data-semver="2.1.4" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script data-require="angular.js@1.4.6" data-semver="1.4.6" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script data-require="angular-route@1.4.6" data-semver="1.4.6" src="https://code.angularjs.org/1.4.6/angular-route.js"></script>
+    <script data-require="d3@3.5.3" data-semver="3.5.3" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#graph">Graph</a>
+        </li>
+      </ul>
+    </nav>
+    <div ng-view=""></div>
+  </body>
+
+</html>
